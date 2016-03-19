@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--portfolio-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <title>Portfolio</title>
+
+</head>
+
+<body class="blue">
+    <div class="container">
+        <div class="row header">
+            <div class="col-md-6">
+                <img src="images/logo.jpg" class="img-responsive title-logo" alt="logoimg">
+            </div>
+            <div class="col-md-6 text-uppercase text-right">
+                <h1 class="title-main text-thin"> Bradley Riebau </h1>
+                <h4 class="title-sec"> Web Developer</h4>
+            </div>
+        </div>
+        <div class="border-line"></div>
+        <div class="row header">
+            <div class="col-md-12"><img src="images/cool.jpg "  alt="cool picture" class="img-responsive main-img">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-left">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+        <!--images used are not true projects!!-->
+        <div class="col-md-4"><img class='img-responsive pro-img' src="images/lights.jpeg" alt="Light" data-toggle="modal" data-target="#project1">
+            <h3 class="text-uppercase">Lights</h3>
+            <p><a>https://udacity.com</a>
+            </p>
+        </div>
+        <div class="col-md-4"><img src="images/bck.jpg" alt="colors" data-toggle="modal" data-target="#project2" class="img-responsive pro-img">
+            <h3 class="text-uppercase">Sunflower</h3>
+            <p><a>https://udacity.com</a>
+            </p>
+        </div>
+        <div class="col-md-4"><img src="images/Cool.jpg" alt="cool photo" data-toggle="modal" data-target="#project3" class='img-responsive pro-img'>
+            <h3 class="text-uppercase">Cool</h3>
+            <p><a>https://udacity.com</a>
+            </p>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/lights.jpeg" alt="lights"> A rainbow cornicoppia of fun!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal2-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/bck.jpg" alt="block"> A beautiful abstract work
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/Cool.jpg" alt="cool picture"> Just a cool picture, nothing to fancy
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
