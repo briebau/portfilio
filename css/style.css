@@ -1,0 +1,71 @@
+
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #8c8888;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.title-logo {
+    margin-top: 5%;
+}
+
+.title-main {
+    font-size: 60px;
+}
+
+.title-sec {
+    font-size: 25px;
+}
+
+.image-main {
+    margin: auto;
+}
+
+.border-line {
+    max-width: 970px;
+    text-align: center;
+    margin: 10px 0;
+    height: 3px;
+    background: #ccc;
+}
+
+.blue {
+    background-color: aliceblue}
+
+.main-img {
+    height: 370px;
+    width: 1100px;
+}
+
+.pro-img {
+    height: 225px;
+    width: 347px;
+}
+
+.header {
+    max-width: 1000px;
+}
+
+.padding-left {
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+.padding-right {
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
